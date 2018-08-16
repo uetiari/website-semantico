@@ -13,7 +13,7 @@ body{
 /* LAYOUT */
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 
 }
@@ -21,6 +21,7 @@ body{
 .col-1-de-3{
     display: inline-block;
     width: 33%;
+    padding: 80px;
 }
 
 .col-2-de-3 {
@@ -29,7 +30,45 @@ body{
 
 }
 
+/* NAVEGAÇÃO */
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.menu__item {
+    display: inline;
+    list-style: none;
+    margin: 20px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.menu__item a {
+    color: grey;
+}
+
+.topbar {
+    position: fixed;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+    background-color: white;
+    top: 0;
+    width: 100%;
+    padding: 10px 95px;
+    z-index: 999; 
+}
+
+
 /*HEADER */
+
+.header {
+    padding-top: 80px;
+    text-align: center;
+}
 
 .header__titulo {
     text-transform: uppercase;
@@ -51,7 +90,7 @@ body{
 .autora {
     text-align: center;
     border: 1px solid lightgrey;
-    padding: 20px;
+    padding: 10px;
     vertical-align: top;
     height: 480px;
 }
@@ -88,9 +127,8 @@ body{
 /* FOOTER */
 
 footer {
-    background-color: #9013FE;
     text-align: center;
-    color: white;
+    color: grey;
 }
 .rodape p {
     margin: 0;
@@ -117,3 +155,4 @@ main{
     vertical-align: top;
 
 } */
+
